@@ -1,0 +1,47 @@
+/* style-03.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #image-gallery {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  #current-image {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  
+  #current-image:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #image-thumbs {
+    margin-top: 20px;
+  }
+  
+  .thumb {
+    max-width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .thumb:hover {
+    border-color: #007bff;
+  }
+  
